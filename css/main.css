@@ -15,17 +15,16 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
-  text
 }
 
 body {
   margin: 0;
+  text-align: center;
 }
 
 a {
   color: #0074d9;
   display: inline-block;
-  font-size: 1.125rem;
   padding: .4em .75em .3em;
   text-decoration: none;
 }
@@ -37,4 +36,20 @@ a:hover {
 
 header {
   background-color: #e2e2e2;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
+
+h1 {
+  text-align: center;
+}
+
+div {
+  text-align: left
 }
