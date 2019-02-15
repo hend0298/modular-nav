@@ -10,6 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
@@ -17,6 +18,23 @@ html {
   text
 }
 
+body {
+  margin: 0;
+}
+
 a {
+  color: #0074d9;
+  display: inline-block;
+  font-size: 1.125rem;
+  padding: .4em .75em .3em;
   text-decoration: none;
+}
+
+a:hover {
+  background-color: #0074d9;
+  color: #fff;
+}
+
+header {
+  background-color: #e2e2e2;
 }
